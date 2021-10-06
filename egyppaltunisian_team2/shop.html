@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/syles.css"></link>
+    <link rel="stylesheet" href="css/all.min.css"></link>
+    <title>shop</title>
+</head>
+<body>
+<!--start header-->
+<header">
+    <div class="nav1">
+        <div class="search-box">
+            <form action="">
+                <span><i class="fa fa-search"></i></span>
+                <input class="text" type="text" placeholder="Search" name="search">
+            </form>
+        </div>
+
+        <div class="groupname">
+            Egypaltunisian Team
+        </div>
+
+        <div class="iconsright">
+            <a href="#"><i class="fas fa-user"></i></a>        
+            <a href="#"><i class="far fa-heart"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </div>
+    <hr class="newline1">
+    <div class="nav2">
+        <div class="links">
+            <ul>
+                <a href="index.html"><li>HOME</li></a> 
+                <a href="about.html"><li>ABOUT</li></a> 
+                <a href="shop.html"><li  class="lii">SHOP</li></a> 
+                <a href="#"><li>CATALOGUE</li></a> 
+                <a href="#"><li>NEW ARRIVALS</li></a> 
+                <a href="contact.html"><li>CONTACT</li></a> 
+            </ul>
+        </div>
+    </div>
+    <div class="nav3">
+        <div class="home_about">
+            <a class="home"href="#">Home </a><span>&nbsp; / &nbsp;  </span> 
+            <a class="about"href="#">Shop</a>
+        </div>
+    </div>
+</header>
+<!--end header-->
+<!-- start section1-->
+<section class="wiss1">
+    <div class="leftside">
+        <div class="box1">
+            <h3 class="space">Categories</h3>
+            <div class="divcategories">
+                <div class="divcategories1">
+                    <p>Men</p>
+                    <p>Women</p>
+                    <p>Children</p>
+                </div>
+                <div class="divcategories2">
+                    <p>(2,220)</p>
+                    <p>(2,550)</p>
+                    <p>(2124)</p>
+                </div>
+            </div>
+        </div>
+        <div class="filterouss">
+            <h3 class="space">Filter By Price</h3>
+            <br>
+            <div class="slide">
+                <div class="slide1">
+                    <div slider id="slider-distance">
+                        <div slider id="slider-distance">
+                            <div>
+                            <div inverse-left style="width:70%;"></div>
+                            <div inverse-right style="width:70%;"></div>
+                            <div range style="left:30%;right:40%;"></div>
+                            <span thumb style="left:30%;"></span>
+                            <span thumb style="left:60%;"></span>
+                            <div sign style="left:30%;">
+                                <span id="value">30</span>
+                            </div>
+                            <div sign style="left:60%;">
+                                <span id="value">60</span>
+                            </div>
+                            </div>
+                            <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                            this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[1].style.width=value+'%';
+                            children[5].style.left=value+'%';
+                            children[7].style.left=value+'%';children[11].style.left=value+'%';
+                            children[11].childNodes[1].innerHTML=this.value;" />
+                        
+                            <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                            this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[3].style.width=(100-value)+'%';
+                            children[5].style.right=(100-value)+'%';
+                            children[9].style.left=value+'%';children[13].style.left=value+'%';
+                            children[13].childNodes[1].innerHTML=this.value;" />
+                            </div>
+                </div>
+                <div class="slide2">
+                    <p>75$ - 300$</p>
+                </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <form  class="space">  
+                <h3>SIZE</h3>
+                <br>
+                <input type="checkbox" id="gender" name="gender" value="male"/>
+                <label for="gender">small (2,319) </label><br>
+                <br> 
+                <input type="checkbox" id="gender" name="gender" value="female"/>
+                <label for="gender">medium (1,782)</label><br>
+                <br> 
+                <input type="checkbox" id="gender" name="gender" value="other"/>
+                <label for="gender">large (1,392)</label><br>
+                   
+            </form>   
+                <br><br>
+            <h3 class="space">COLOR</h3>
+            <br>
+                <div class="redpoint spacee">
+                    <div class="dotred"></div>
+                    <p>Red (2,429)</p>
+                </div>
+                <br>
+                <div class="greenpoint spacee">
+                    <div class="dotgreen"></div>
+                    <p>green (2,298)</p>
+                </div>
+                <br>
+                <div class="bluepoint spacee">
+                    <div class="dotblue"></div>
+                    <p>blue (2,429)</p>
+                </div>
+                <br>
+                <div class="purplepoint spacee">
+                    <div class="dotpurple"></div>
+                    <p>purple (2,429)</p>
+                </div>
+        </div>   
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <div class="rightside">
+        <p class="rightsidep1">Shop All</p>
+        <!-- dropdown -->
+            <div class="dropdownfather">
+                <div class="dropdown">
+                    <button class="dropbtn">LATEST</button>
+                        <div class="dropdown-content">
+                            <a href="#"> MEN</a>
+                            <a href="#">WOMEN</a>
+                            <a href="#">CHILDREN</a>
+                        </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">REFERENCE</button>
+                        <div class="dropdown-content">
+                            <a href="#"> Relevance</a>
+                            <a href="#">Name , A to Z</a>
+                            <a href="#">Name , Z to A</a>
+                            <hr style="color: rgba(128, 128, 128, 0.274);">
+                            <a href="#">Price , Low to High</a>
+                            <a href="#">Price , High to Low  </a>
+                        </div>
+                </div>
+            </div>
+        <!-- END dropdown -->
+        <br><br><br>
+        <br>
+        <br>
+        <div class="class1">
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_1.jpg" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/hero_1.png" alt="">
+                    <h2>Corater</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_2.jpg" alt="">
+                    <h2>Polo Shirt</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="class1">
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_3.jpg" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/hero_1.png" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_1.jpg" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="class1">
+            <div class="img1">
+                <a href="single_product.html"><img src="images/hero_1.png" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_2.jpg" alt="">
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_3.jpg" alt=""> 
+                    <h2>Tank Top</h2>
+                    <p>Finding perfect t-shirt</p>
+                    <p>$50</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="class1">
+            <div class="img1">
+                <a href="single_product.html"><img src="images/hero_1.png" alt="">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>$50</p></a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_1.jpg" alt="">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>$50</p></a>
+            </div>
+            <div class="img1">
+                <a href="single_product.html"><img src="images/cloth_2.jpg" alt="">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>$50</p></a>
+        </div>
+        </div>
+    </div>
+</section>
+<!--end section1-->
+<!--shopdiv-->
+<section>
+    <div class="row">
+        <div class="col shopdiv">
+            <span><i class="fas fa-angle-left"></i></span>
+            <span class="activediv">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span><i class="fas fa-angle-right"></i></span>
+        </div>
+    </div>
+</section>
+<!-- shopdiv-->
+<!--start section2-->
+<section class="part3">
+    <div class="photo">
+        <div class="photo_1 women">
+            <img src="images/women.jpg" alt="">
+            <div class="text_1">
+                <p class="collections">Collection</p>
+                <h1>Women</h1>
+            </div>
+
+        </div>
+        <div class="photo_1 childern">
+            <img src="images/children.jpg" alt="">
+            <div class="text_1">
+                <p class="collections">Collection</p>
+                <h1>Children</h1>
+            </div>
+        </div>
+        <div class="photo_1 men">
+            <img src="images/men.jpg" alt="">
+            <div class="text_1">
+                <p class="collections">Collection</p>
+                <h1>Men</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end section2-->  
+<hr class="newline3">
+
+
+
+
+<!-- Start footer -->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="foo1">
+          <h3>Navigations</h3>
+        <ul>
+            <div class="linee">
+                <li>Sell Online</li>
+                <li>Feature</li>
+                <li>Shopping Cart</li>
+                <li>Store builder</li>
+            </div>
+            <div class="linee">
+                <li>Mobile Commerce</li>
+                <li>Dropshopping</li>
+                <li>Website Development</li>
+
+            </div>
+            <div class="linee"> 
+                <li>Point Of Sale</li>
+                <li>Hardware</li>
+                <li>Software</li>
+            </div>
+
+        </ul>
+        </div>
+
+        <div class="foo2">
+            <h3>Promo</h3>
+            <img src="images/hero_1.jpg" alt="hero_1">
+            <a href="#">Finding Your Perfect Shoes</a>
+            <p>Promo from nuary 15--25, 2019</p> 
+        </div>
+
+        <div class="foo3">
+          <h3>Contact Info</h3>
+          <ul class="footer-links">
+              <div class="foodiv">
+                <div class="foodiv1">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="foodiv2">
+                    <p>203 Main St.Moountain View, Raba, jenin, Palestine </p>
+                </div>
+              </div>
+              <div class="foodiv">
+                <div class="foodiv1">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="foodiv2">
+                    <p>+972597863817</p>
+                </div>
+              </div>
+              <div class="foodiv">
+                <div class="foodiv1">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="foodiv2">
+                    <p>sarabzoor1997@gmail.com</p>
+                </div>
+              </div>
+            
+          </ul>
+          <h3 class="subscribe">Subscribe</h3>
+          <div class="send">
+            <input type="text" placeholder="Email" class="txt">
+            <a href="#">Send</a>
+          </div>
+        </div>
+        <div class="foo4">
+            <p>Copyright &copy; 2021 All right reserved | This templete made with ♥ by <span style="color:#543975;">Egypaltunisian Team
+            </span></p>
+        </div>
+      </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<script src="js/all.min.js"></script>
+</body>
+</html>
